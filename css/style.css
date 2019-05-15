@@ -1,0 +1,32 @@
+body{
+  background-color: #3E4551; /* using hsl() requires setting fallback color */
+  background-color: hsl(218, 28%, 13%);
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+  margin: 35px 30px;
+  display:flex;
+  align-items: center; /* the default value is stretch */
+  justify-content:space-between;
+}
+
+.logo{
+  width: 130px;
+}
+
+.menu-list {
+  display:flex;
+  list-style: none; /* style on ul rather than li to remove the bullet point style */
+  padding-left: 0; /* the default format of padding-left for ul is 40px */
+}
+.nav-link{
+  color: #fff;
+  text-decoration: none; /* remove the underline */
+  padding-left:35px;
+  padding-right:10px;
+  font-size: 0.8rem;
+}
+.nav-link:hover{
+  color: #81D9D4;
+}
