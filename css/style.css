@@ -1,6 +1,6 @@
 body{
   background-color: #3E4551; /* using hsl() requires setting fallback color */
-  background-color: hsl(218, 28%, 13%);
+  background-color: hsl(217, 28%, 15%);
   font-family: 'Raleway', sans-serif;
   text-align: center;
   color: #fff;
@@ -38,6 +38,7 @@ body{
   flex-direction:column;
   width:65%;
   margin:100px auto;
+  padding-bottom: 10px;
 }
 
 .intro-img{
@@ -69,13 +70,20 @@ body{
 
 .grid-container{
   display:grid;
-  grid-template-columns:320px [10%] 320px;
-  grid-template-rows:repeat(80px [40px] auto [10px] auto [100px]);
+  grid-template-columns:280px 280px;
+  grid-template-rows: 60% 60%;
+  grid-column-gap: 10%;
   justify-content: center;
+  padding-bottom: 180px;
+  background-color: hsl(218, 28%, 13%);
 }
 
 .grid-item{
-  font-size: 75%;
+  font-size: 65%;
   line-height: 1.1rem;
   place-self:center;
+}
+
+.feature-img{
+  height:50px;
 }
