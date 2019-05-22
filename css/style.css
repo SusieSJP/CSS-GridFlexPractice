@@ -62,7 +62,6 @@ body{
 }
 
 .intro-p{
-  width:70%;
   margin:20px auto 30px;
   font-size: 0.7rem;
   line-height: 1.1rem;
@@ -100,4 +99,29 @@ body{
 
 .feature-img{
   height:50px;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* the default setting is stretch */
+  margin:auto;
+  padding-bottom:50px;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.hl-img{
+  width:40%;
+  padding-right: 20px;
+}
+
+.side-notes{
+  width:40%;
+  text-align: left;
+}
+
+.link-text{
+  color: #81D9D4;
+  text-decoration: underline;
 }
